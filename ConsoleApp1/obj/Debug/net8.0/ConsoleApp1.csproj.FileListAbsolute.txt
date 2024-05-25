@@ -1,0 +1,14 @@
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfo.cs
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.dll
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/refint/ConsoleApp1.dll
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
