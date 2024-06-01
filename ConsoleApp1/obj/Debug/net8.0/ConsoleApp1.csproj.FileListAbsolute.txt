@@ -12,3 +12,4 @@
 /Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
 /Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
 /Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
+/Users/frandercarrillotorres/Downloads/ExposicionProgra/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.sourcelink.json

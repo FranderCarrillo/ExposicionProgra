@@ -1,26 +1,30 @@
 ﻿using System;
 
-// Paso 1: Definir una interfaz
+// se Define una interfaz
 public interface IVehiculo
 {
-    void Mover();
+    void MostrarInfo();
 }
 
-// Paso 2: Implementar clases concretas que implementen la interfaz
+// se Implementa las clases concretas que implementen la interfaz
 public class Coche : IVehiculo
 {
-    public void Mover()
+    public void MostrarInfo()
     {
-        Console.WriteLine("El coche se mueve.");
+        Console.WriteLine("Ha alquilado un Coche.");
+
     }
 }
 
 public class Bicicleta : IVehiculo
 {
-    public void Mover()
+    public void MostrarInfo()
     {
-        Console.WriteLine("La bicicleta se mueve.");
+        Console.WriteLine("Ha alquilado una Bicicleta.");
+        // Aquí iría la lógica específica para mostrar información de una bicicleta
     }
+
+
 }
 
 // Paso 3: Implementar la Factory
@@ -35,7 +39,7 @@ public class VehiculoFactory
             case "bicicleta":
                 return new Bicicleta();
             default:
-                throw new ArgumentException("Tipo de vehículo desconocido.");
+                return null;
         }
     }
 }
@@ -47,19 +51,19 @@ class Program
     {
         VehiculoFactory factory = new VehiculoFactory();
 
-        Console.WriteLine("¿Qué vehículo desea crear? (coche/bicicleta)");
-        string tipoVehiculo = Console.ReadLine();
+        Console.WriteLine("¿Qué tipo de vehículo desea Alquilar? (coche/bicicleta)");
+        string tipoVehiculo = Console.ReadLine().ToLower();
 
-        try
+        // Verificar si el tipo de vehículo es válido
+        if (tipoVehiculo == "coche" || tipoVehiculo == "bicicleta")
         {
             // Crear un vehículo según la entrada del usuario
             IVehiculo vehiculo = factory.CrearVehiculo(tipoVehiculo);
-            vehiculo.Mover();
+            vehiculo.MostrarInfo();
         }
-        catch (ArgumentException ex)
+        else
         {
-            Console.WriteLine(ex.Message);
+            Console.WriteLine("Tipo de vehículo desconocido.");
         }
-
     }
 }
