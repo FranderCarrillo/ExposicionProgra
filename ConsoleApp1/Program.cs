@@ -1,18 +1,16 @@
 ﻿using System;
+using System.Diagnostics.Contracts;
 
-// se Define una interfaz
 public interface IVehiculo
 {
     void MostrarInfo();
 }
 
-// se Implementa las clases concretas que implementen la interfaz
 public class Coche : IVehiculo
 {
     public void MostrarInfo()
     {
         Console.WriteLine("Ha alquilado un Coche.");
-
     }
 }
 
@@ -21,13 +19,8 @@ public class Bicicleta : IVehiculo
     public void MostrarInfo()
     {
         Console.WriteLine("Ha alquilado una Bicicleta.");
-        // Aquí iría la lógica específica para mostrar información de una bicicleta
     }
-
-
 }
-
-// Paso 3: Implementar la Factory
 public class VehiculoFactory
 {
     public IVehiculo CrearVehiculo(string tipo)
